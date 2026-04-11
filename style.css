@@ -122,3 +122,10 @@ section {
 .resume-item p {
   margin: 0.2rem 0;
 }
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: -0.5rem;
+  margin-bottom: 1.5rem;
+}
