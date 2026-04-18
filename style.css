@@ -5,9 +5,26 @@ body {
   padding: 1rem;
 }
 
+/* html {
+  --color-accent: oklch(65% 50% 0);
+  accent-color: var(--color-accent);
+} */
+
 html {
   --color-accent: oklch(65% 50% 0);
   accent-color: var(--color-accent);
+  color-scheme: light dark;
+}
+
+.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 0.9rem;
+}
+
+.color-scheme select {
+  font: inherit;
 }
 
 h1, h2, h3, h4, h5, h6 {
