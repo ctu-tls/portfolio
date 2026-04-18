@@ -1,5 +1,44 @@
-console.log('IT’S ALIVE!');
+console.log("IT'S ALIVE!");
 
 function $$(selector, context = document) {
   return Array.from(context.querySelectorAll(selector));
+}
+
+const ARE_WE_LOCAL =
+  location.hostname === "localhost" || location.hostname === "127.0.0.1";
+
+const BASE_PATH = ARE_WE_LOCAL ? "/" : "/portfolio/";
+
+const pages = [
+  { url: "", title: "Home" },
+  { url: "projects/", title: "Projects" },
+  { url: "contact/", title: "Contact" },
+  { url: "resume/", title: "Resume" },
+  { url: "https://github.com/ctu-tls", title: "GitHub" }
+];
+
+let nav = document.createElement("nav");
+document.body.prepend(nav);
+
+for (let p of pages) {
+  let url = p.url;
+
+  if (!url.startsWith("http")) {
+    url = BASE_PATH + url;
+  }
+
+  let a = document.createElement("a");
+  a.href = url;
+  a.textContent = p.title;
+
+  if (a.host === location.host && a.pathname === location.pathname) {
+    a.classList.add("current");
+  }
+
+  if (a.host !== location.host) {
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+  }
+
+  nav.append(a);
 }
