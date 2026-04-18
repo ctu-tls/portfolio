@@ -50,6 +50,16 @@ nav a {
   padding: 0.5em;
 }
 
+nav a {
+  flex: 1;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  padding: 0.5em;
+  transition: all 0.2s ease;
+}
+
+/* Light / automatic default */
 nav a.current {
   border-bottom: 0.4em solid var(--color-accent);
   background-color: var(--color-accent);
@@ -62,17 +72,17 @@ nav a:hover {
   color: black;
 }
 
-@media (prefers-color-scheme: dark) {
-  nav a.current {
-    background-color: transparent;
-    border-bottom: 0.4em solid white;
-    color: white;
-  }
+/* When your dropdown sets html style="color-scheme: dark" */
+html[style*="color-scheme: dark"] nav a.current {
+  background-color: transparent;
+  border-bottom: 0.4em solid white;
+  color: white;
+}
 
-  nav a:hover {
-    background-color: white;
-    color: black;
-  }
+html[style*="color-scheme: dark"] nav a:hover {
+  background-color: white;
+  border-bottom: 0.4em solid white;
+  color: black;
 }
 
 
@@ -159,7 +169,7 @@ section {
 
 .subtitle {
   font-size: 1.2rem;
-  color: #555;
+  color: color-mix(in oklch, canvastext 55%, canvas 45%);
   margin-top: -0.5rem;
   margin-bottom: 1.5rem;
 }
