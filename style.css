@@ -128,13 +128,16 @@ button {
 }
 
 .projects article {
-  display: grid;
-  grid-template-rows: subgrid;
-  grid-row: span 3;
+  display: flex;
+  flex-direction: column;
   gap: 1em;
   padding: 1em;
   border: 1px solid oklch(85% 2% 200);
   border-radius: 0.75rem;
+}
+
+.projects article p {
+  margin: 0;
 }
 
 .projects h2 {
