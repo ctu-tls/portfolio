@@ -1,29 +1,74 @@
 [
-    {
-        "title": "Project One",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "A short description of the project."
-    },
   {
-    "title": "DSC 106 Project 1",
+    "title": "Portfolio Website",
     "year": "2026",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "A visualization project about grocery prices and food processing."
+    "description": "A personal portfolio website for DSC 106, built with HTML, CSS, JavaScript, reusable navigation, theme switching, and project data loaded from JSON."
   },
   {
-    "title": "Lab 1",
+    "title": "DataHacks 2026 Strategy Project",
     "year": "2026",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "My first DSC 106 portfolio webpage."
+    "description": "A Python project for the DataHacks 2026 economics track, focused on BTC, ETH, and SOL binary prediction market strategies and backtesting."
   },
-    {
-        "title": "Project Two",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "A short description of the project."
-    },
-    {
-        "title": "Project Three",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "A short description of the project."
-}
+  {
+    "title": "Lizzzard Ahhh",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A DataHacks 2026 project exploring strategy testing, product design, and simplified quant trading ideas."
+  },
+  {
+    "title": "DSC 106 Data Visualization",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A course repository for DSC 106 Data Visualization, including labs, portfolio work, and visualization assignments."
+  },
+  {
+    "title": "DSC 106 Project 1: Grocery Price Visualization",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "An expository visualization project analyzing grocery prices, food processing categories, and price per calorie."
+  },
+  {
+    "title": "Power Outage Length Analysis",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A Jupyter Notebook data science project analyzing major power outages and factors related to outage length."
+  },
+  {
+    "title": "GitHub Skills: Introduction to GitHub",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A GitHub Skills practice repository for learning basic GitHub workflows, repositories, commits, and collaboration tools."
+  },
+  {
+    "title": "GitHub Skills: Resolve Merge Conflicts",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A GitHub Skills practice repository focused on identifying, understanding, and resolving merge conflicts."
+  },
+  {
+    "title": "GitHub Skills: Review Pull Requests",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A GitHub Skills practice repository for learning how to review pull requests and collaborate through code review."
+  },
+  {
+    "title": "Personal GitHub Repository",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A personal repository used for experimenting with GitHub, organizing code, and practicing project setup."
+  },
+  {
+    "title": "Projects Repository",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A Jupyter Notebook repository used for coursework, experiments, and early data science project practice."
+  },
+  {
+    "title": "Audio-Reactive City Visualizer",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "A creative coding project concept using p5.js and WEBGL to create a city scene where buildings, lights, and fireworks react to sound."
+  }
 ]
