@@ -1,0 +1,24 @@
+[
+    {
+        "title": "DSC 106 Project 1",
+        "year": "2026",
+        "image": "../image/placeholder.png",
+        "description": "An expository visualization project about grocery prices and food processing."
+    },
+
+    {
+        "title": "Project One",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "A short description of the project."
+    },
+    {
+        "title": "Project Two",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "A short description of the project."
+    },
+    {
+        "title": "Project Three",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "A short description of the project."
+}
+]
