@@ -173,3 +173,21 @@ section {
   margin-top: -0.5rem;
   margin-bottom: 1.5rem;
 }
+
+#profile-stats dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+  text-align: center;
+  padding: 1em;
+  border: 1px solid oklch(85% 2% 200);
+  border-radius: 0.75rem;
+}
+
+#profile-stats dt {
+  font-weight: bold;
+}
+
+#profile-stats dd {
+  margin: 0;
+}
