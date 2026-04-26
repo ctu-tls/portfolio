@@ -80,8 +80,7 @@ export async function fetchJSON(url) {
       throw new Error(`Failed to fetch JSON: ${response.statusText}`);
     }
 
-    const data = await response.json();
-    return data;
+    return await response.json();
   } catch (error) {
     console.error('Error fetching or parsing JSON data:', error);
   }

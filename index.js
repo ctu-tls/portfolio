@@ -18,4 +18,5 @@ if (profileStats) {
       <dt>Following</dt><dd>${githubData.following}</dd>
     </dl>
   `;
+
 }
