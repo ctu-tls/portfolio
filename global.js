@@ -83,6 +83,7 @@ export async function fetchJSON(url) {
     return await response.json();
   } catch (error) {
     console.error('Error fetching or parsing JSON data:', error);
+    throw error;
   }
 }
 
