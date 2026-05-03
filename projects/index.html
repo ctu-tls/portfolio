@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
   <title>Projects</title>
-  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../style.css" />
+  <script type="module" src="../global.js"></script>
+  <script type="module" src="projects.js"></script>
 </head>
-
 <body>
   <h1 class="projects-title">Projects</h1>
-
   <p>Here are some of the projects I am working on and interested in exploring.</p>
 
-  <div class="projects"></div>
+  <div class="chart-container">
+    <svg id="projects-pie-plot" viewBox="-50 -50 100 100"></svg>
+    <ul class="legend"></ul>
+  </div>
 
-  <script src="../global.js" type="module"></script>
-  <script src="projects.js" type="module"></script>
+  <input
+    class="searchBar"
+    type="search"
+    aria-label="Search projects"
+    placeholder="Search projects…"
+  />
+
+  <div class="projects"></div>
 </body>
 </html>
