@@ -12,10 +12,10 @@
     "description": "A Python project for the DataHacks 2026 economics track, focused on BTC, ETH, and SOL binary prediction market strategies and backtesting."
   },
   {
-    "title": "Lizzzard Ahhh",
-    "year": "2026",
+    "title": "Taylor Swift Lyrics Analysis",
+    "year": "2024",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "A DataHacks 2026 project exploring strategy testing, product design, and simplified quant trading ideas."
+    "description": "An analysis on Taylor Swift's song lyrics using Python, including data collection, cleaning, and visualization of themes, word usage, and sentiment across her discography."
   },
   {
     "title": "DSC 106 Data Visualization",
@@ -24,10 +24,10 @@
     "description": "A course repository for DSC 106 Data Visualization, including labs, portfolio work, and visualization assignments."
   },
   {
-    "title": "DSC 106 Project 1: Grocery Price Visualization",
-    "year": "2026",
+    "title": "DSC 140B SoCal Geoguesser",
+    "year": "2025",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "An expository visualization project analyzing grocery prices, food processing categories, and price per calorie."
+    "description": "DSC 140B project creating a SoCal-themed Geoguesser system, that identifies locations based on visual cues."
   },
   {
     "title": "Power Outage Length Analysis",
@@ -42,10 +42,10 @@
     "description": "A GitHub Skills practice repository for learning basic GitHub workflows, repositories, commits, and collaboration tools."
   },
   {
-    "title": "GitHub Skills: Resolve Merge Conflicts",
+    "title": "Disney Doppelganger Analysis",
     "year": "2025",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "A GitHub Skills practice repository focused on identifying, understanding, and resolving merge conflicts."
+    "description": "A doppelganger analysis project comparing Disney characters to real-world celebrities, using data collection, cleaning, and visualization to explore similarities and patterns."
   },
   {
     "title": "GitHub Skills: Review Pull Requests",
